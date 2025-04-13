@@ -6,7 +6,7 @@ import copy
 
 
 class DatasetCatalog(object):
-    DATA_DIR = "/home/maelic/Documents/PhD/MyModel/SGG-Benchmark/"
+    DATA_DIR = "/kaggle/working/SGG/"
     IMG_DIR = "/home/maelic/Documents/Datasets/VG/"
     DATASETS = {
         "VG150": {
@@ -19,7 +19,7 @@ class DatasetCatalog(object):
         },
         "PSG": {
             "img_dir": "/home/maelic/Documents/Datasets/COCO/",
-            "ann_file": DATA_DIR+"datasets/psg/psg_train_val.json",
+            "ann_file": DATA_DIR+"psg_train_val.json",
             "informative_file":  "", #DATA_DIR+"datasets/informative_sg.json",
         },
         "VrR-VG_filtered_with_attribute": {
